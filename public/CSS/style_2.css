@@ -1,0 +1,52 @@
+body {
+    background-image: url(../images/dm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.formstyle{
+    background: rgba(0, 0, 0, .1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .55);
+    color: white;
+}
+.form-control{
+    background: rgba(0, 0, 0, .3);
+    border-style: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+    
+}
+.form-control::placeholder{
+    color: white;
+}
+.form-control:focus{
+    background: none;
+    outline: none;
+    box-shadow: none;
+}
+.btnstyle{
+    background: #222a3f;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .55);
+    transition: 0.5s ease-in;
+}
+.btnstyle:hover {
+color: white;
+}
+.spanstyle{
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+.spanstyle:hover{
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
